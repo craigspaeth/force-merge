@@ -8,7 +8,8 @@ const newVars = {
   S3_BUCKET: 'force-merge',
   APPLICATION_NAME: 'force-merge',
   PORT: '5000',
-  APP_URL: 'http://localhost:5000'
+  APP_URL: 'http://localhost:5000',
+  SESSION_COOKIE_KEY: 'force-merge.sess'
 }
 
 const blacklistedVars = [
